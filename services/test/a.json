@@ -1,0 +1,9 @@
+{
+  "type": "app-service",
+  "name": "a",
+  "description": "",
+  "singleton": true,
+  "variables": [],
+  "visible": [],
+  "parentDirectoryId": "WrrjVlmqJlrvpxglAs-vX"
+}

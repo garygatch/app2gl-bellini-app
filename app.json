@@ -1,0 +1,81 @@
+{
+  "name": "app2gl",
+  "type": "app",
+  "defaultPage": "home",
+  "config": {
+    "config": {
+      "parameters": [],
+      "script": ""
+    },
+    "modules": [],
+    "auth": {
+      "enabled": false,
+      "mockedUserAccounts": []
+    },
+    "environments": [],
+    "properties": {},
+    "themes": [],
+    "defaultEnvironment": {
+      "name": "Default",
+      "description": "",
+      "active": true,
+      "properties": []
+    }
+  },
+  "directories": {
+    "assets": [],
+    "components": [
+      {
+        "id": "wYh2Ai84l4XSwo2fEsJtr",
+        "name": "test"
+      }
+    ],
+    "pages": [
+      {
+        "id": "zjq7yQB792gVP9rvB5XBF",
+        "name": "dir"
+      }
+    ],
+    "scripts": [
+      {
+        "id": "5snfqcWuNYip-xTSO4McF",
+        "name": "test"
+      }
+    ],
+    "services": [
+      {
+        "id": "WrrjVlmqJlrvpxglAs-vX",
+        "name": "test"
+      }
+    ],
+    "stylesheets": [
+      {
+        "id": "vFkzjmftFIKkUnVr3cGyN",
+        "name": "test"
+      }
+    ]
+  },
+  "externalScripts": [],
+  "externalStylesheets": [],
+  "localScripts": [
+    {
+      "path": "test/b.js",
+      "parentDirectoryId": "5snfqcWuNYip-xTSO4McF"
+    },
+    {
+      "path": "test/a.js",
+      "parentDirectoryId": "5snfqcWuNYip-xTSO4McF"
+    }
+  ],
+  "localStylesheets": [
+    {
+      "path": "test/b.css",
+      "parentDirectoryId": "vFkzjmftFIKkUnVr3cGyN"
+    },
+    {
+      "path": "test/a.css",
+      "parentDirectoryId": "vFkzjmftFIKkUnVr3cGyN",
+      "order": 1
+    }
+  ]
+}
